@@ -9,6 +9,7 @@
         max-width: 1024px;
         width: 100%;
         margin: 20px 0px 100px 0px;
+        
 
         .header-list {
             display: flex;
@@ -25,6 +26,10 @@
             padding: 15px;
             border-radius: 5px;
         }
+    }
+    .header-container.listMode{
+        margin: 20px 0px 0px 0px;
+
     }
     .header-btn {
         background-color: white;
