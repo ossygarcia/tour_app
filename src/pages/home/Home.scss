@@ -3,5 +3,16 @@
     margin-top: 50px;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
+
+    .homeTitle {
+        width: 1024px;
+        font-size: 20px;
+        margin-top: -15px;
+    }
+    .pTitle {
+        width: 1024px;
+        font-size: 20px;
+        margin-top: -15px;
+    }
 }
