@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
@@ -7,8 +8,12 @@ const Navbar = () => {
 			<div className='navbar-container'>
 				<span>Event Booking</span>
 				<div className='navbar-item'>
-					<button className='navbar-item-button'>Register</button>
-					<button className='navbar-item-button'>Login</button>
+					<Link to='/' className='navbar-item-button'>
+						Register
+					</Link>
+					<Link to='/' className='navbar-item-button'>
+						Login
+					</Link>
 				</div>
 			</div>
 		</div>

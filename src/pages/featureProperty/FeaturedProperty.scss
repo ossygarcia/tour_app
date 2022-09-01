@@ -7,7 +7,7 @@
     margin-top: -20px;
 
     .fitems {
-        border-radius: 10px;
+
         overflow: hidden;
         height: 250px;
 
@@ -15,6 +15,8 @@
             width: 100%;
             object-fit: cover;
             cursor: pointer;
+            border-radius: 10px 10px 0px 0px;
+
         }
         .fitemsInfo {
             flex: 1;
@@ -25,8 +27,12 @@
         .frating > button {
             background-color: #000629;
             color: aliceblue;
-            padding: 5px;
-            border-radius: 5px;
+            padding: 2px;
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+        .frating > span {
+            padding: 10px;
         }
     }
 }

@@ -6,6 +6,7 @@ import { DateRange } from 'react-date-range';
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import { format } from 'date-fns';
+import {Search} from '@mui/icons-material'
 
 const Header = ({ type }) => {
 	const [ open, setOpen ] = useState(false);
@@ -63,7 +64,7 @@ const Header = ({ type }) => {
 							We give you opportunity to access every resources you need for you tour through our booking
 							platform
 						</p>
-						<button className='header-btn'>Sign In / Sign Up</button>
+						<button className='btn'>Sign In / Sign Up</button>
 						<div className='header-search'>
 							<div className='header-searchItem'>
 								<FontAwesomeIcon icon={faBed} className='headerIcon' />
@@ -156,7 +157,7 @@ const Header = ({ type }) => {
 								)}
 							</div>
 							<div className='header-searchItem'>
-								<button className='header-btn'>Search</button>
+								<Search className='header-btn'/>
 							</div>
 						</div>
 					</div>

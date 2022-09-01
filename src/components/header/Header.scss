@@ -2,14 +2,18 @@
     display: flex;
     justify-content: center;
     color: white;
-    background-color: #000629;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-photo/hammocks-umbrella-placed-near-large-pool_1203-192.jpg?size=626&ext=jpg&uid=R16363781&ga=GA1.2.1663851365.1658541380');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
 
     .header-container {
         max-width: 1024px;
         width: 100%;
         margin: 20px 0px 100px 0px;
-        
 
         .header-list {
             display: flex;
@@ -27,22 +31,26 @@
             border-radius: 5px;
         }
     }
-    .header-container.listMode{
+    .header-container.listMode {
         margin: 20px 0px 0px 0px;
-
     }
     .header-btn {
-        background-color: white;
-        border: 1px solid black;
+        cursor: pointer;
+        
+    }
+    .btn{
+        background-color: #425eff;
         padding: 15px;
         border-radius: 5px;
         cursor: pointer;
         font-weight: 700;
+        color: white;
+        border: none;
     }
     .header-search {
         height: 40px;
         background-color: white;
-        border: 3px solid #aef26e;
+        border: 1px solid #0b0133;
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -54,7 +62,6 @@
         max-width: 1024px;
         color: lightgray;
         z-index: 3;
-
 
         .headerIcon {
             margin-right: 10px;
@@ -85,11 +92,10 @@
             top: 50px;
             background-color: white;
             color: gray;
-            border: 5px;
+            border: 1px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
             padding: 10px;
             z-index: 3;
-
 
             .header-optionItem {
                 display: flex;
@@ -98,14 +104,12 @@
                 margin: 10px;
                 justify-content: space-between;
 
-
                 .option-container {
                     display: flex;
                     gap: 10px;
                     align-items: center;
                     font-size: 15px;
                     color: #031767;
-
                 }
                 .option-btn {
                     background-color: #031767;

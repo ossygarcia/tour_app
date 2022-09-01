@@ -14,6 +14,7 @@ const FeaturedProperty = () => {
 						<span className='fprice'>{item.price}</span>
 						<div className='frating'>
 							<button>{item.rating}</button>
+							<span>Excellent</span>
 						</div>
 					</div>
 				</div>

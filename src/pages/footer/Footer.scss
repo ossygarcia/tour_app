@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    width: 100%;
+    width: 1024px;
+    gap: 50px;
+    justify-content: center;
+
+    .section_one {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    .section_two {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+.section_three {
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1024;
+
+    p {
+        font-style: italic;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+}

@@ -3,6 +3,8 @@ import Featured from '../../components/featured/Featured';
 import Header from '../../components/header/Header';
 import Navbar from '../../components/navbar/Navbar';
 import FeaturedProperty from '../featureProperty/FeaturedProperty';
+import Footer from '../footer/Footer';
+import MailBanner from '../mailBanner/MailBanner';
 import PropertyList from '../propertyList/PropertyList';
 import './Home.scss';
 
@@ -17,6 +19,8 @@ const Home = () => {
 				<PropertyList />
 				<h3 className='pTitle'>Beauty Apartments for Guest</h3>
 				<FeaturedProperty />
+				<MailBanner />
+				<Footer />
 			</div>
 		</div>
 	);
